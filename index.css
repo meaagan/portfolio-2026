@@ -3,8 +3,12 @@ body {
     font-family: monospace;
 }
 
-header, footer {
+header {
     text-align: center;
+}
+
+a {
+    color: white;
 }
 
 .main {
@@ -13,4 +17,28 @@ header, footer {
     height:90vh;
     margin:0 auto;
     background-color: blue;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .main{
+        height: none;
+    }
+    h1 {
+        font-size: 4em;
+    }
+    h2 {
+        font-size: 3.5em;
+    }
+    h3 {
+        font-size: 2em;
+    }
+    h4 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
 }
