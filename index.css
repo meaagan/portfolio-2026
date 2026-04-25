@@ -23,8 +23,9 @@ a {
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
     .main{
-        height: none;
-        padding:7rem;
+        height: 100vh;
+        padding:8rem;
+        width: 100vw;
     }
     h1 {
         font-size: 4em;
