@@ -13,7 +13,7 @@ a {
 
 .main {
     padding:2rem;
-    width:70vw;
+    width:80vw;
     height:90vh;
     margin:0 auto;
     background-color: blue;
@@ -25,7 +25,7 @@ and (max-device-width : 480px) {
     .main{
         height: 100vh;
         padding:8rem;
-        width: 100vw;
+        width: 90vw;
     }
     h1 {
         font-size: 4em;
@@ -34,13 +34,13 @@ and (max-device-width : 480px) {
         font-size: 3.5em;
     }
     h3 {
-        font-size: 2em;
+        font-size: 2.5em;
     }
     h4 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
-    p {
-        font-size: 1.5em;
+    p, li {
+        font-size: 2rem;
     }
 }
