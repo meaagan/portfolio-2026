@@ -24,6 +24,7 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
     .main{
         height: none;
+        padding:7rem;
     }
     h1 {
         font-size: 4em;
