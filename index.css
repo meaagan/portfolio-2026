@@ -7,6 +7,18 @@ header {
     text-align: center;
 }
 
+.lang-switch {
+    text-align: right;
+    margin-bottom: 0.5rem;
+}
+
+.lang-switch select {
+    font: inherit;
+    color: inherit;
+    background: transparent;
+    border: 1px solid currentColor;
+}
+
 a {
     color: white;
 }

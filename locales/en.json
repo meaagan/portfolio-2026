@@ -1,0 +1,53 @@
+{
+  "meta": { "htmlLang": "en" },
+  "name": "Meagan Butters",
+  "role": "Web Developer",
+  "nav": {
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "medium": "Medium",
+    "openipf": "OpenIPF"
+  },
+  "bio": {
+    "heading": "Bio",
+    "p1": "Meagan is a backend developer from Montreal. They have been building products at Petal Health since 2021. After completing a BFA from Concordia University in Computation Arts in 2019, they completed a bootcamp at Le Wagon in 2020.",
+    "p2": "Outside of the capitalist rat race, they enjoy powerlifting, crafting, nail art, and cuddling with their cat."
+  },
+  "tech": {
+    "heading": "Tech Stack",
+    "rails": "Ruby On Rails",
+    "nest": "TypeScript (NestJS)",
+    "react": "React"
+  },
+  "projects": {
+    "heading": "Projects",
+    "avocadoTitle": "Avocado Sushi, 2020",
+    "avocadoDesc": ": Landing page for local sushi restaurant. Created with GatsbyJS.",
+    "seeHere": "See it here"
+  },
+  "studies": {
+    "heading": "Studies",
+    "link": "Studies"
+  },
+  "work": {
+    "link": "Work History"
+  },
+  "studiesPage": {
+    "back": "back",
+    "title": "Studies",
+    "subtitlePart1": "Micro projects to learn new skills and practice old ones. Project ideas from ",
+    "roadmapLabel": "Roadmap",
+    "weatherTitle": "Weather API",
+    "weatherBullets": [
+      "API that returns the data interesting to me from a third party API",
+      "Implemented Redis to practice setting up and utilizing a cache",
+      "Set up a Node server for the first time",
+      "Practice with setting up a logger (in this case, Winston) and using it efficiently"
+    ],
+    "expenseTitle": "Expense Tracker",
+    "expenseBullets": [
+      "Expense tracker app with basic UI",
+      "Set up authentication and JWT token configuration for the first time (main goal of the project)"
+    ]
+  }
+}

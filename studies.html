@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="main">
+            <label class="lang-switch" for="lang-switch-studies">
+                <select id="lang-switch-studies" data-i18n-switch aria-label="Language">
+                    <option value="en">EN</option>
+                    <option value="fr">FR</option>
+                </select>
+            </label>
+            <a href="index.html" data-i18n="studiesPage.back">back</a>
+            <h2 data-i18n="studiesPage.title">Studies</h2>
+            <h4>
+                <span data-i18n="studiesPage.subtitlePart1">Micro projects to learn new skills and practice old ones. Project ideas from </span><a href="https://roadmap.sh/"><span data-i18n="studiesPage.roadmapLabel">Roadmap</span></a>
+            </h4>
+            <ul>
+                <li>
+                    <a href="https://github.com/meaagan/weather-api" data-i18n="studiesPage.weatherTitle">Weather API</a> -
+                    <i>Express, TypeScript, Redis, Winston, Nodemon, Axios</i>
+                </li>
+                <ul data-i18n-list="studiesPage.weatherBullets">
+                    <li>API that returns the data interesting to me from a third party API</li>
+                    <li>Implemented Redis to practice setting up and utilizing a cache</li>
+                    <li>Set up a Node server for the first time</li>
+                    <li>Practice with setting up a logger (in this case, Winston) and using it efficiently</li>
+                </ul>
+                <li>
+                    <a href="https://github.com/meaagan/expense-tracker" data-i18n="studiesPage.expenseTitle">Expense Tracker</a> -
+                    <i>Ruby on Rails, MySQL, Redis</i>
+                </li>
+                <ul data-i18n-list="studiesPage.expenseBullets">
+                    <li>Expense tracker app with basic UI</li>
+                    <li>Set up authentication and JWT token configuration for the first time (main goal of the project)</li>
+                </ul>
+            </ul>
+        </div>
+        <script src="i18n.js"></script>
+        <script>
+            I18n.init().catch(function (err) {
+                console.error('i18n failed (try a local server, not file://):', err);
+            });
+        </script>
+    </body>
+</html>

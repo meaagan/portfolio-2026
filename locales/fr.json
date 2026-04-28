@@ -1,0 +1,53 @@
+{
+  "meta": { "htmlLang": "fr" },
+  "name": "Meagan Butters",
+  "role": "Développeuse web",
+  "nav": {
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "medium": "Medium",
+    "openipf": "OpenIPF"
+  },
+  "bio": {
+    "heading": "Bio",
+    "p1": "Meagan est développeuse backend à Montréal. Iel construis des produits chez Petal Health depuis 2021. Après un BFA en Computation Arts à Concordia (2019), iel ont complété le bootcamp Le Wagon (2020).",
+    "p2": "En dehors de la course aux profits, iel aiment le powerlifting, les bricolages, le nail art et les câlins avec son chat."
+  },
+  "tech": {
+    "heading": "Stack technique",
+    "rails": "Ruby on Rails",
+    "nest": "TypeScript (NestJS)",
+    "react": "React"
+  },
+  "projects": {
+    "heading": "Projets",
+    "avocadoTitle": "Avocado Sushi, 2020",
+    "avocadoDesc": " : page d’accueil pour un restaurant de sushi local. Réalisée avec GatsbyJS.",
+    "seeHere": "Voir le site"
+  },
+  "studies": {
+    "heading": "Études",
+    "link": "Études"
+  },
+  "work": {
+    "link": "Parcours professionnel"
+  },
+  "studiesPage": {
+    "back": "retour",
+    "title": "Études",
+    "subtitlePart1": "Micro projets pour apprendre de nouvelles compétences et pratiquer les anciennes. Idées de projets via ",
+    "roadmapLabel": "Roadmap",
+    "weatherTitle": "API météo",
+    "weatherBullets": [
+      "API qui renvoie les données qui m’intéressent à partir d’une API third-party",
+      "Mise en place de Redis pour pratiquer un cache",
+      "Premier serveur Node",
+      "Mise en place d’un logger (Winston) et utilisation au quotidien"
+    ],
+    "expenseTitle": "Suivi des dépenses",
+    "expenseBullets": [
+      "Appli de suivi des dépenses avec une UI simple",
+      "Première mise en place d’auth et de JWT (objectif principal du projet)"
+    ]
+  }
+}

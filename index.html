@@ -2,47 +2,62 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <link rel="icon" type="image/x-icon" href="buddy.png">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <div class="main">
-            <header>            
-                <h1>Meagan Butters</h1>
-                <h2>Web Developer</h2>
+            <header>
+                <label class="lang-switch" for="lang-switch">
+                    <select id="lang-switch" data-i18n-switch aria-label="Language">
+                        <option value="en">EN</option>
+                        <option value="fr">FR</option>
+                    </select>
+                </label>
+                <h1 data-i18n="name">Meagan Butters</h1>
+                <h2 data-i18n="role">Web Developer</h2>
                 <p>meagan.butters@gmail.com</p>
-                <p><a href="https://www.linkedin.com/in/meagan-butters/">LinkedIn</a> | <a href="https://github.com/meaagan">GitHub</a> | <a href="https://medium.com/@meaganbutters">Medium</a> | <a href="https://www.openipf.org/u/meaganbutters">OpenIPF</a></p>
+                <p>
+                    <a href="https://www.linkedin.com/in/meagan-butters/" data-i18n="nav.linkedin">LinkedIn</a> |
+                    <a href="https://github.com/meaagan" data-i18n="nav.github">GitHub</a> |
+                    <a href="https://medium.com/@meaganbutters" data-i18n="nav.medium">Medium</a> |
+                    <a href="https://www.openipf.org/u/meaganbutters" data-i18n="nav.openipf">OpenIPF</a>
+                </p>
             </header>
             <div class="content">
                 <div class="bio">
-                    <h2>Bio</h2>
-                    <p>Meagan is a backend developer from Montreal. They have been building products at Petal Health since 2021. After completing a BFA from Concordia University in Computation Arts in 2019, they completed a bootcamp at Le Wagon in 2020.</p>
-                    <p></p>
-                    <p>Outside of the capitalist rat race, they enjoy powerlifting, crafting, nail art, and cuddling with their cat. </p>
+                    <h2 data-i18n="bio.heading">Bio</h2>
+                    <p data-i18n="bio.p1">Meagan is a backend developer from Montreal. They have been building products at Petal Health since 2021. After completing a BFA from Concordia University in Computation Arts in 2019, they completed a bootcamp at Le Wagon in 2020.</p>
+                    <p data-i18n="bio.p2">Outside of the capitalist rat race, they enjoy powerlifting, crafting, nail art, and cuddling with their cat.</p>
                 </div>
                 <div class="tech">
-                    <h2>Tech Stack</h2>
+                    <h2 data-i18n="tech.heading">Tech Stack</h2>
                     <ul>
-                        <li>Ruby On Rails</li>
-                        <li>TypeScript (NestJS)</li>
-                        <li>React</li>
+                        <li data-i18n="tech.rails">Ruby On Rails</li>
+                        <li data-i18n="tech.nest">TypeScript (NestJS)</li>
+                        <li data-i18n="tech.react">React</li>
                     </ul>
                 </div>
                 <div class="projects">
-                    <h2>Projects</h2>
-                    <p><b>A Good Project, 2026</b>: Description</p>
-                    <p><b>Avocado Sushi, 2020</b>: Landing page for local sushi restaurant. Created with GatsbyJS. <a href="www.avocadosushi.ca">See it here</a>.</p>
+                    <h2 data-i18n="projects.heading">Projects</h2>
+                    <p>
+                        <b data-i18n="projects.avocadoTitle">Avocado Sushi, 2020</b><span data-i18n="projects.avocadoDesc">: Landing page for local sushi restaurant. Created with GatsbyJS.</span>
+                        <a href="http://www.avocadosushi.ca"><span data-i18n="projects.seeHere">See it here</span></a>.
+                    </p>
                 </div>
-                <!-- <div class="Essays">
-                    <h3>Essays</h3>
-                    <p>Essay 1</p>
-                    <p>Essay 2</p>
+                <div class="studies">
+                    <h2><a href="studies.html" data-i18n="studies.link">Studies</a></h2>
+                </div>
+                <!-- <div class="work">
+                    <h2><a href="cv.html" data-i18n="work.link">Work History</a></h2>
                 </div> -->
-                <div class="work">
-                    <h2>Work History</h2>
-                    <p>Developer II at Petal Health, 2021 - Current</p>
-                    <p>Freelance Web Developer, 2020 - Current</p>
-                </div>
             </div>
         </div>
+        <script src="i18n.js"></script>
+        <script>
+            I18n.init().catch(function (err) {
+                console.error('i18n failed (try a local server, not file://):', err);
+            });
+        </script>
     </body>
 </html>
