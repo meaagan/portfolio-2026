@@ -7,13 +7,13 @@
     </head>
     <body>
         <div class="main">
+            <label class="lang-switch" for="lang-switch">
+                <select id="lang-switch" data-i18n-switch aria-label="Language">
+                    <option value="en">EN</option>
+                    <option value="fr">FR</option>
+                </select>
+            </label>
             <header>
-                <label class="lang-switch" for="lang-switch">
-                    <select id="lang-switch" data-i18n-switch aria-label="Language">
-                        <option value="en">EN</option>
-                        <option value="fr">FR</option>
-                    </select>
-                </label>
                 <h1 data-i18n="name">Meagan Butters</h1>
                 <h2 data-i18n="role">Web Developer</h2>
                 <p>meagan.butters@gmail.com</p>
@@ -26,15 +26,25 @@
             </header>
             <div class="content">
                 <div class="bio">
-                    <h2 data-i18n="bio.heading">Bio</h2>
-                    <p data-i18n="bio.p1">Meagan is a backend developer from Montreal. They have been building products at Petal Health since 2021. After completing a BFA from Concordia University in Computation Arts in 2019, they completed a bootcamp at Le Wagon in 2020.</p>
-                    <p data-i18n="bio.p2">Outside of the capitalist rat race, they enjoy powerlifting, crafting, nail art, and cuddling with their cat.</p>
+                    
+                    <p data-i18n="bio.p1">
+                        Meagan is a web developer in Montreal. After a BFA in Computation Arts at Concordia (2019) and the Le Wagon bootcamp (2020), they've been building product at Petal Health since 2021—mostly Rails- and TypeScript work in the healthcare space.
+                    </p>
+                    <p data-i18n="bio.p2">
+                        Away from the keyboard: powerlifting, making things with their hands, nail art, and hanging out with their cat Buddy.
+                    </p>
                 </div>
                 <div class="tech">
-                    <h2 data-i18n="tech.heading">Tech Stack</h2>
+                    <h2 data-i18n="tech.heading">
+                        Tech Stack
+                    </h2>
                     <ul>
-                        <li data-i18n="tech.rails">Ruby On Rails</li>
-                        <li data-i18n="tech.nest">TypeScript (NestJS)</li>
+                        <li data-i18n="tech.rails">
+                            Ruby On Rails
+                        </li>
+                        <li data-i18n="tech.nest">
+                            TypeScript (NestJS)
+                        </li>
                     </ul>
                 </div>
                 <!-- <div class="projects">
@@ -45,11 +55,15 @@
                     </p>
                 </div> -->
                 <div class="studies">
-                    <h2><a href="studies.html" data-i18n="studies.link">Studies</a></h2>
+                    <h2><a href="studies.html" data-i18n="studies.link">
+                        Studies
+                    </a></h2>
                 </div>
-                <!-- <div class="work">
-                    <h2><a href="cv.html" data-i18n="work.link">Work History</a></h2>
-                </div> -->
+                <div class="work">
+                    <h2><a href="cv.html" data-i18n="work.link">
+                        Work History
+                    </a></h2>
+                </div>
             </div>
         </div>
         <script src="i18n.js"></script>

@@ -1,13 +1,21 @@
+html {
+    height: auto;
+}
+
 body {
     color: white;
     font-family: monospace;
+    min-height: 100vh;
+    min-height: 100dvh;
 }
 
-header {
+header, h1 {
     text-align: center;
 }
 
 .lang-switch {
+    position: relative;
+    z-index: 10;
     text-align: right;
     margin-bottom: 0.5rem;
 }
@@ -24,19 +32,19 @@ a {
 }
 
 .main {
-    padding:2rem;
-    width:50vw;
-    height:90vh;
-    margin:0 auto;
+    box-sizing: content-box;
+    margin: 0 auto;
+    width: 70%;
+    padding: 2rem;
+    height: 90vh;
     background-color: blue;
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-    .main{
-        height: 100vh;
-        padding:8rem;
+@media only screen and (max-device-width: 480px) {
+    .main {
+        min-height: 100vh;
+        min-height: 100dvh;
+        padding: 8rem 2rem max(3rem, env(safe-area-inset-bottom, 0px));
         width: 90vw;
     }
     h1 {
@@ -51,8 +59,28 @@ and (max-device-width : 480px) {
     h4 {
         font-size: 2em;
     }
-
+    h5 {
+        font-size: 2em;
+    }
     p, li {
         font-size: 2rem;
+    }
+    .back-button {
+        font-size: 2rem;
+    }
+    select, option {
+        font-size: auto;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .main {
+        min-height: 100vh;
+        min-height: 100dvh;
+        padding: 8rem 2rem max(3rem, env(safe-area-inset-bottom, 0px));
+        width: 90vw;
     }
 }

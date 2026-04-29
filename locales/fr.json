@@ -10,8 +10,8 @@
   },
   "bio": {
     "heading": "Bio",
-    "p1": "Meagan est développeuse backend à Montréal. Iel construis des produits chez Petal Health depuis 2021. Après un BFA en Computation Arts à Concordia (2019), iel ont complété le bootcamp Le Wagon (2020).",
-    "p2": "En dehors de la course aux profits, iel aiment le powerlifting, les bricolages, le nail art et les câlins avec son chat."
+    "p1": "Meagan est développeuse web à Montréal. Après un BFA en arts du calcul à Concordia (2019) et le bootcamp Le Wagon (2020), iel développent des produits chez Petal Health depuis 2021 — surtout du Ruby on Rails et du TypeScript, dans le domaine de la santé.",
+    "p2": "Loin du clavier : powerlifting, bricolage, nail art et moments avec leur chat Buddy."
   },
   "tech": {
     "heading": "Stack technique",
@@ -48,6 +48,33 @@
     "expenseBullets": [
       "Appli de suivi des dépenses avec une UI simple",
       "Première mise en place d’auth et de JWT (objectif principal du projet)"
+    ]
+  },
+  "cvPage": {
+    "back": "retour",
+    "title": "CV",
+    "educationTitle": "Formation",
+    "workTitle": "Parcours professionnel",
+    "cvBio": "Développeuse backend Ruby on Rails et TypeScript avec 5+ ans d’expérience dans la construction et la maintenance de systèmes de technologie de santé en production. Capacité à s’adapter aux changements d’équipes et de priorités tout en livrant de manière cohérente à travers plusieurs produits et codebases. Un collègue collaboratif et accessible qui valorise la communication claire et le partage de responsabilités. En dehors du travail, développe des micro-projets pour expérimenter de nouveaux outils et perfectionner continuellement ses compétences techniques.",
+    "bootcampTitle": "Bootcamp Le Wagon, 2020",
+    "bootcampBullets": [
+      "Bootcamp de développement web axé sur Ruby on Rails",
+      "Contenu: Ruby on Rails, bases de données et SQL, HTML/CSS/JS, UI/UX, git, terminal, déploiement sur Heroku"
+    ],
+    "concordiaTitle": "Concordia University — Spécialisation en Computation Arts (BFA), 2015 - 2019",
+    "concordiaBullets": [
+      "Cours: création numérique, production 3D, typographie et textes numériques, réseaux et navigation",
+      "Technologies: Processing, HTML/CSS/JavaScript, Blender"
+    ],
+    "petalTitle": "Petal Health | Développeuse II | 2021 - Présent",
+    "petalSubTitle": "Cursor, Ruby on Rails, Angular, TypeScript, NestJS, Redis, Sidekiq, Elasticsearch",
+    "petalBullets": [
+      "Conception et lancement d’un produit from scratch avec Ruby on Rails (architecture, schéma de données, logique métier) au sein d’une équipe de 6 personnes",
+      "Responsabilité long terme après la mise en prod : nouvelles fonctionnalités et stabilité sur plusieurs années",
+      "Amélioration des perfs et de la maintenabilité de systèmes Rails existants (refactors ciblés, correctifs, modernisation dont montées de version Rails)",
+      "Contribution à un service backend TypeScript/NestJS pour de nouvelles initiatives produit",
+      "Réduction de la dette technique et fiabilisation sur plusieurs codebases",
+      "Conception et mise en œuvre d’un pont d’authentification entre deux applications pour l’interopérabilité sécurisée et l’accès utilisateur partagé"
     ]
   }
 }
