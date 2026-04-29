@@ -8,6 +8,7 @@
     "medium": "Medium",
     "openipf": "OpenIPF"
   },
+  "back": "Back",
   "bio": {
     "heading": "Bio",
     "p1": "Meagan is a web developer in Montreal. After a BFA in Computation Arts at Concordia (2019) and the Le Wagon bootcamp (2020), they've been building product at Petal Health since 2021—mostly Rails- and TypeScript work in the healthcare space.",
@@ -33,7 +34,6 @@
     "link": "Curriculum vitae"
   },
   "studiesPage": {
-    "back": "back",
     "title": "Studies",
     "subtitlePart1": "Micro projects to learn new skills and practice old ones. Project ideas from ",
     "roadmapLabel": "Roadmap",
@@ -51,7 +51,6 @@
     ]
   },
   "cvPage": {
-    "back": "back",
     "title": "Curriculum vitae",
     "cvBio": "Ruby on Rails and TypeScript developer with 5+ years of experience building and maintaining healthcare technology production systems. Proven ability to adapt to changing teams and priorities while consistently delivering across multiple products and codebases. A collaborative and approachable teammate who values clear communication and shared ownership of solutions. Outside of work, develops micro-projects to experiment with new tools and continuously refine technical skills.",
     "educationTitle": "Education",

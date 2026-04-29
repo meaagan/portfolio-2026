@@ -1,8 +1,3 @@
-/**
- * Simple static HTML i18n: elements with data-i18n="key" get text from locales/{lang}.json.
- * Keys use dots for nesting: "bio.title" → { "bio": { "title": "..." } }.
- * Requires serving over HTTP(S) so fetch() can load JSON (e.g. GitHub Pages, npx serve).
- */
 (function () {
   const STORAGE_KEY = 'portfolio-lang';
   const DEFAULT_LANG = 'en';
@@ -57,11 +52,27 @@
     return res.json();
   }
 
+  function otherLang(l) {
+    l = normalizeLang(l);
+    return l === 'en' ? 'fr' : 'en';
+  }
+
+  function syncLangToggle(lang) {
+    var l = normalizeLang(lang);
+    var next = otherLang(l);
+    document.querySelectorAll('[data-i18n-switch]').forEach(function (el) {
+      el.textContent = next.toUpperCase();
+      el.setAttribute('data-lang-next', next);
+      el.setAttribute('aria-label', l === 'en' ? 'Switch to French' : 'Switch to English');
+    });
+  }
+
   async function setLang(lang) {
     var l = normalizeLang(lang);
     var dict = await load(l);
     apply(dict);
     localStorage.setItem(STORAGE_KEY, l);
+    syncLangToggle(l);
     document.dispatchEvent(new CustomEvent('i18n:lang', { detail: { lang: l } }));
     return l;
   }
@@ -69,19 +80,28 @@
   function bindSwitcher(root) {
     root = root || document;
     root.querySelectorAll('[data-i18n-switch]').forEach(function (el) {
-      el.addEventListener('change', function () {
-        setLang(el.value).catch(function (e) {
+      if (el.getAttribute('data-i18n-switch-bound') === '1') return;
+      el.setAttribute('data-i18n-switch-bound', '1');
+      function go() {
+        var next = el.getAttribute('data-lang-next');
+        if (!next) next = otherLang(preferredLang());
+        setLang(next).catch(function (e) {
           console.error(e);
         });
+      }
+      el.addEventListener('click', go);
+      el.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          go();
+        }
       });
-      el.value = preferredLang();
     });
   }
 
   async function init() {
-    var lang = preferredLang();
-    await setLang(lang);
     bindSwitcher();
+    await setLang(preferredLang());
   }
 
   window.I18n = {
