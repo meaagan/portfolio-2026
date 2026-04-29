@@ -53,6 +53,7 @@
   },
   "cvPage": {
     "title": "Curriculum vitae",
+    "download": "Cliquez ici pour voir la version PDF",
     "educationTitle": "Formation",
     "workTitle": "Parcours professionnel",
     "cvBio": "Développeuse backend Ruby on Rails et TypeScript avec 5+ ans d’expérience dans la construction et la maintenance de systèmes de technologie de santé en production. Capacité à s’adapter aux changements d’équipes et de priorités tout en livrant de manière cohérente à travers plusieurs produits et codebases. Un collègue collaboratif et accessible qui valorise la communication claire et le partage de responsabilités. En dehors du travail, développe des micro-projets pour expérimenter de nouveaux outils et perfectionner continuellement ses compétences techniques.",
@@ -67,7 +68,7 @@
       "Technologies: Processing, HTML/CSS/JavaScript, Blender"
     ],
     "petalTitle": "Petal Health | Développeuse II | 2021 - Présent",
-    "petalSubTitle": "Cursor, Ruby on Rails, Angular, TypeScript, NestJS, Redis, Sidekiq, Elasticsearch",
+    "petalSubtitle": "Cursor, Ruby on Rails, Angular, TypeScript, NestJS, Redis, Sidekiq, Elasticsearch",
     "petalBullets": [
       "Conception et lancement d’un produit from scratch avec Ruby on Rails (architecture, schéma de données, logique métier) au sein d’une équipe de 6 personnes",
       "Responsabilité long terme après la mise en prod : nouvelles fonctionnalités et stabilité sur plusieurs années",

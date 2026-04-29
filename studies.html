@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <title>Meagan Butters</title>
         <link rel="icon" type="image/x-icon" href="buddy.png">
         <script src="theme.js"></script>
         <link rel="stylesheet" href="index.css">
@@ -10,14 +11,19 @@
         <div class="main">
             <div class="content">
                 <div class="site-toolbar">
-                    <span class="theme-toggle" data-theme-toggle tabindex="0" role="button">Light</span>
-                    <span class="lang-switch" data-i18n-switch tabindex="0" role="button" aria-label="Switch language">FR</span>
+                    <span class="back-button"><a href="index.html" data-i18n="back">Home</a></span>
+                    <div>
+                        <span class="theme-toggle" data-theme-toggle tabindex="0" role="button">Light</span>
+                        <span class="lang-switch" data-i18n-switch tabindex="0" role="button" aria-label="Switch language">FR</span>
+                    </div>
                 </div>
-                <span class="back-button"><a href="index.html" data-i18n="back">Home</a></span>
-                <header><h1 data-i18n="studiesPage.title">Studies</h1>
-                <h4>
-                    <span data-i18n="studiesPage.subtitlePart1">Micro projects to learn new skills and practice old ones. Project ideas from </span><a href="https://roadmap.sh/"><span data-i18n="studiesPage.roadmapLabel">Roadmap</span></a>
-                </h4></header>
+                <header>
+                    <h1 data-i18n="name">Meagan Butters</h1>
+                    <h2 data-i18n="studiesPage.title">Studies</h2>
+                    <h4>
+                        <span data-i18n="studiesPage.subtitlePart1">Micro projects to learn new skills and practice old ones. Project ideas from </span><a href="https://roadmap.sh/"><span data-i18n="studiesPage.roadmapLabel">Roadmap</span></a>
+                    </h4>
+                </header>
                 <p><a href="https://github.com/meaagan/weather-api" data-i18n="studiesPage.weatherTitle">Weather API</a> - <i>Express, TypeScript, Redis, Winston, Nodemon, Axios</i></p>
                 <ul data-i18n-list="studiesPage.weatherBullets">
                     <li>API that returns the data interesting to me from a third party API</li>

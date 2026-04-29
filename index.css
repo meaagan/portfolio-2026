@@ -33,9 +33,13 @@ header, h1 {
     text-align: center;
 }
 
+.tech {
+    font-style: italic;
+}
+
 .site-toolbar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     gap: 1.25rem;
     margin-bottom: 0.5rem;
