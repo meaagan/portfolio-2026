@@ -3,39 +3,36 @@
     <head>
         <meta charset="utf-8">
         <link rel="icon" type="image/x-icon" href="buddy.png">
+        <script src="theme.js"></script>
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <div class="main">
-            <span class="lang-switch" data-i18n-switch tabindex="0" role="button" aria-label="Switch language">FR</span>
-            <header>
-                <h1 data-i18n="name">Meagan Butters</h1>
-                <h2 data-i18n="role">Web Developer</h2>
-                <p>meagan.butters@gmail.com</p>
-                <p>
-                    <a href="https://www.linkedin.com/in/meagan-butters/" data-i18n="nav.linkedin">LinkedIn</a> |
-                    <a href="https://github.com/meaagan" data-i18n="nav.github">GitHub</a> |
-                    <a href="https://medium.com/@meaganbutters" data-i18n="nav.medium">Medium</a> |
-                    <a href="https://www.openipf.org/u/meaganbutters" data-i18n="nav.openipf">OpenIPF</a>
-                </p>
-            </header>
             <div class="content">
-                <div class="bio">
-                    
-                    <p data-i18n="bio.p1">
-                        Meagan is a web developer in Montreal. After a BFA in Computation Arts at Concordia (2019) and the Le Wagon bootcamp (2020), they've been building product at Petal Health since 2021—mostly Rails- and TypeScript work in the healthcare space.
-                    </p>
-                    <p data-i18n="bio.p2">
-                        Away from the keyboard: powerlifting, making things with their hands, nail art, and hanging out with their cat Buddy.
-                    </p>
-                    <p data-i18n="bio.p3">
-                        This website was built with pure HTML, CSS and JavaScript, and deployed with Netlify.
-                    </p>
+                <div class="site-toolbar">
+                    <span class="theme-toggle" data-theme-toggle tabindex="0" role="button">Light</span>
+                    <span class="lang-switch" data-i18n-switch tabindex="0" role="button" aria-label="Switch language">FR</span>
                 </div>
-                <div class="tech">
-                    <h2 data-i18n="tech.heading">
+                <header>
+                    <h1 data-i18n="name">Meagan Butters</h1>
+                    <h2 data-i18n="role">Web Developer</h2>
+                    <p>meagan.butters@gmail.com</p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/meagan-butters/" data-i18n="nav.linkedin">LinkedIn</a> |
+                        <a href="https://github.com/meaagan" data-i18n="nav.github">GitHub</a> |
+                        <a href="https://medium.com/@meaganbutters" data-i18n="nav.medium">Medium</a> |
+                        <a href="https://www.openipf.org/u/meaganbutters" data-i18n="nav.openipf">OpenIPF</a>
+                    </p>
+                </header>
+                <div class="bio">
+                    <p data-i18n="bio.p1"></p>
+                    <p data-i18n="bio.p2"></p>
+                    <p data-i18n="bio.p3"></p>
+                </div>
+                <!-- <div class="tech">
+                    <h3 data-i18n="tech.heading">
                         Tech Stack
-                    </h2>
+                    </h3>
                     <ul>
                         <li data-i18n="tech.rails">
                             Ruby On Rails
@@ -44,24 +41,29 @@
                             TypeScript (NestJS)
                         </li>
                     </ul>
-                </div>
+                </div> -->
                 <!-- <div class="projects">
-                    <h2 data-i18n="projects.heading">Projects</h2>
+                    <h3 data-i18n="projects.heading">Projects</h3>
                     <p>
                         <b data-i18n="projects.avocadoTitle">Avocado Sushi, 2020</b><span data-i18n="projects.avocadoDesc">: Landing page for local sushi restaurant. Created with GatsbyJS.</span>
                         <a href="http://www.avocadosushi.ca"><span data-i18n="projects.seeHere">See it here</span></a>.
                     </p>
                 </div> -->
                 <div class="studies">
-                    <h2><a href="studies.html" data-i18n="studies.link">
+                    <h3><a href="studies.html" data-i18n="studies.link">
                         Studies
-                    </a></h2>
+                    </a></h3>
                 </div>
                 <div class="work">
-                    <h2><a href="cv.html" data-i18n="work.link">
+                    <h3><a href="cv.html" data-i18n="work.link">
                         Curriculum vitae
-                    </a></h2>
+                    </a></h3>
                 </div>
+                <!-- <div class="about">
+                    <h3><a href="about.html" data-i18n="about.link">
+                        About me
+                    </a></h3>
+                </div> -->
             </div>
         </div>
         <script src="i18n.js"></script>

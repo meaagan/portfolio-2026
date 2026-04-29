@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/x-icon" href="buddy.png">
+        <script src="theme.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="content">
+                <div class="site-toolbar">
+                    <span class="theme-toggle" data-theme-toggle tabindex="0" role="button">Light</span>
+                    <span class="lang-switch" data-i18n-switch tabindex="0" role="button" aria-label="Switch language">FR</span>
+                </div>
+                <header>
+                    <h1 data-i18n="name">Meagan Butters</h1>
+                    <h2 data-i18n="role">Web Developer</h2>
+                    <p>meagan.butters@gmail.com</p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/meagan-butters/" data-i18n="nav.linkedin">LinkedIn</a> |
+                        <a href="https://github.com/meaagan" data-i18n="nav.github">GitHub</a> |
+                        <a href="https://medium.com/@meaganbutters" data-i18n="nav.medium">Medium</a> |
+                        <a href="https://www.openipf.org/u/meaganbutters" data-i18n="nav.openipf">OpenIPF</a>
+                    </p>
+                </header>
+                <p>Work in progress :-)</p>
+            </div>
+        </div>
+        <script src="i18n.js"></script>
+        <script>
+            I18n.init().catch(function (err) {
+                console.error('i18n failed (try a local server, not file://):', err);
+            });
+        </script>
+    </body>
+</html>
