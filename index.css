@@ -69,7 +69,7 @@ a {
     p, li {
         font-size: 2rem;
     }
-    .back-button {
+    .back-button, .lang-switch {
         font-size: 2rem;
     }
 }
@@ -83,11 +83,5 @@ a {
         min-height: 100dvh;
         padding: 8rem 2rem max(3rem, env(safe-area-inset-bottom, 0px));
         width: 90vw;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    .lang-switch {
-        font-size: max(1.125rem, 18px);
     }
 }

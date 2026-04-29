@@ -2,6 +2,7 @@
   "meta": { "htmlLang": "fr" },
   "name": "Meagan Butters",
   "role": "Développeuse web",
+  "back": "Accueil",
   "nav": {
     "linkedin": "LinkedIn",
     "github": "GitHub",
@@ -33,7 +34,6 @@
     "link": "Curriculum vitae"
   },
   "studiesPage": {
-    "back": "retour",
     "title": "Études",
     "subtitlePart1": "Micro projets pour apprendre de nouvelles compétences et pratiquer les anciennes. Idées de projets via ",
     "roadmapLabel": "Roadmap",
@@ -51,7 +51,6 @@
     ]
   },
   "cvPage": {
-    "back": "retour",
     "title": "Curriculum vitae",
     "educationTitle": "Formation",
     "workTitle": "Parcours professionnel",
