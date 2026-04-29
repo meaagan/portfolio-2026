@@ -30,7 +30,7 @@
     "link": "Études"
   },
   "work": {
-    "link": "Parcours professionnel"
+    "link": "Curriculum vitae"
   },
   "studiesPage": {
     "back": "retour",
@@ -52,7 +52,7 @@
   },
   "cvPage": {
     "back": "retour",
-    "title": "CV",
+    "title": "Curriculum vitae",
     "educationTitle": "Formation",
     "workTitle": "Parcours professionnel",
     "cvBio": "Développeuse backend Ruby on Rails et TypeScript avec 5+ ans d’expérience dans la construction et la maintenance de systèmes de technologie de santé en production. Capacité à s’adapter aux changements d’équipes et de priorités tout en livrant de manière cohérente à travers plusieurs produits et codebases. Un collègue collaboratif et accessible qui valorise la communication claire et le partage de responsabilités. En dehors du travail, développe des micro-projets pour expérimenter de nouveaux outils et perfectionner continuellement ses compétences techniques.",
