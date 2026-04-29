@@ -13,7 +13,7 @@
     "heading": "Bio",
     "p1": "Meagan is a web developer in Montreal. After a BFA in Computation Arts at Concordia (2019) and the Le Wagon bootcamp (2020), they've been building product at Petal Health since 2021—mostly Rails- and TypeScript work in the healthcare space.",
     "p2": "Away from the keyboard: powerlifting, making things with their hands, nail art, and hanging out with their cat Buddy.",
-    "p3": "This website was built with pure HTML, CSS and JavaScript, and is being deployed with Netlify."
+    "p3": "This website was built with pure HTML, CSS and JavaScript, and deployed with Netlify."
   },
   "tech": {
     "heading": "Tech Stack",
