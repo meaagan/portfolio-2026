@@ -66,7 +66,8 @@
       "Cours: création numérique, production 3D, typographie et textes numériques, réseaux et navigation",
       "Technologies: Processing, HTML/CSS/JavaScript, Blender"
     ],
-    "petalTitle": "Petal Health | Développeuse II | 2021 - Présent | Cursor, Ruby on Rails, Angular, TypeScript, NestJS, Redis, Sidekiq, Elasticsearch",
+    "petalTitle": "Petal Health | Développeuse II | 2021 - Présent",
+    "petalSubTitle": "Cursor, Ruby on Rails, Angular, TypeScript, NestJS, Redis, Sidekiq, Elasticsearch",
     "petalBullets": [
       "Conception et lancement d’un produit from scratch avec Ruby on Rails (architecture, schéma de données, logique métier) au sein d’une équipe de 6 personnes",
       "Responsabilité long terme après la mise en prod : nouvelles fonctionnalités et stabilité sur plusieurs années",
